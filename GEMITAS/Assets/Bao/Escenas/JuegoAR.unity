@@ -338,11 +338,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &345279078 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9210667159266505396, guid: 78d2cf26084531049b248322fad483a7, type: 3}
-  m_PrefabInstance: {fileID: 486506281}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &486506281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -739,7 +734,7 @@ MonoBehaviour:
   <trackablesChanged>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  m_PlanePrefab: {fileID: 0}
+  m_PlanePrefab: {fileID: 7294399977734224472, guid: 4ab33d10145268240a465a2906c6382a, type: 3}
   m_DetectionMode: -1
 --- !u!114 &624723791
 MonoBehaviour:
@@ -789,7 +784,7 @@ MonoBehaviour:
   <trackablesChanged>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  m_RaycastPrefab: {fileID: 345279078}
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &796456562
 GameObject:
   m_ObjectHideFlags: 0
