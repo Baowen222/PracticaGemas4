@@ -9,7 +9,9 @@ public class JuegoAR : MonoBehaviour
    
     public ARPlaneManager planeManager;
 
-   
+  
+    public AudioSource audioEfectos;
+    public AudioClip sonidoGema;
     public GameObject gemaPrefab;
 
     
@@ -142,6 +144,11 @@ public class JuegoAR : MonoBehaviour
         if (!juegoEmpezado) return;
 
         gemasRecogidas++;
+
+        if (audioEfectos != null && sonidoGema != null)
+        {
+            audioEfectos.PlayOneShot(sonidoGema);
+        }
     }
 
     void Ganar()
